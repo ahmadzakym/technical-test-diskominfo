@@ -1,0 +1,15 @@
+{
+  "name": "technical-test",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install --prefix diskominfo-api-proxy && npm install --prefix diskominfo-test",
+    "dev": "concurrently \"npm run dev --prefix diskominfo-api-proxy\" \"npm run dev --prefix diskominfo-test\"",
+    "dev-fe": "npm run dev --prefix diskominfo-test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "all": "^0.0.0"
+  }
+}

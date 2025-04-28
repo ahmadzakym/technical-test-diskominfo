@@ -1,0 +1,40 @@
+@import "tailwindcss";
+/* @plugin "daisyui" {
+  themes: light --default, dark --prefersdark, corporate;
+} */
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@theme {
+  --font-sans: "Sora", "sans-serif";
+  --font-display: "Sora", "SF Pro Display", "Inter", "sans-serif";
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("/fonts/sora/Sora-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("/fonts/sora/Sora-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("/fonts/sora/Sora-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.pagination-page-active {
+  @apply z-10 flex items-center justify-center px-3 h-8 leading-tight text-blue-600 border border-blue-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white;
+}
+
+.wordbreak {
+  word-wrap: break-word;
+}
