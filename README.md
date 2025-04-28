@@ -1,8 +1,8 @@
 # Fullstack Monolith React dengan Express.js
 
-Proyek ini adalah aplikasi fullstack monolith yang menggunakan **React** untuk frontend dan **Express.js** sebagai proxy API.
+Project ini adalah aplikasi fullstack monolith yang menggunakan **React** untuk frontend dan **Express.js** sebagai proxy API.
 
-## Struktur Proyek
+## Struktur Project
 
 Proyek ini memiliki dua bagian utama:
 
@@ -11,11 +11,14 @@ Proyek ini memiliki dua bagian utama:
 
 ## Instalasi
 
-### Instalasi dan menjalankan proyek
+### Instalasi dan menjalankan project
 
-Untuk menginstal semua dependensi baik di backend maupun frontend dan kemudian menjalankan proyek, jalankan perintah berikut:
+- **Clone repo terlebih dahulu**
+
+Untuk menginstal semua dependensi baik di backend maupun frontend dan kemudian menjalankan proyek, jalankan perintah berikut di root project:
 
 ```bash
+npm install
 npm run install-all
 npm run dev
 ```
